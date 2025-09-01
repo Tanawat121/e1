@@ -111,7 +111,7 @@
             <input type="submit" value="เข้าสู่ระบบ">
         </form>
 
-        <a href="register_form.html" class="button-link"><i class="fa-solid fa-user-plus"></i> สมัครสมาชิก</a>
+        <a href="register_form.php" class="button-link"><i class="fa-solid fa-user-plus"></i> สมัครสมาชิก</a>
     </div>
 
 </body>

@@ -119,12 +119,29 @@
             color: #999;
             font-size: 1.2em;
         }
+        .cart-button {
+    background-color: #4CAF50;
+    padding: 10px 18px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-left: 1100px;
+}
+
+.cart-button:hover {
+    background-color: #388e3c;
+}
     </style>
 </head>
 <body>
 
     <div class="header-bar">
         <div><i class="fa-solid fa-user"></i> ข้อมูลส่วนตัว: <?php echo htmlspecialchars($customer_data ? $customer_data['name'] : $sess_username); ?></div>
+        <a href="cart.php" class="cart-button"><i class="fa-solid fa-cart-shopping"></i> ตะกร้าสินค้า</a>
         <a href="logout.php" class="logout-button"><i class="fa-solid fa-right-from-bracket"></i> ออกจากระบบ</a>
     </div>
 

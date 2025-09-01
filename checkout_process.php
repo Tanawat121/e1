@@ -19,7 +19,7 @@ unset($_SESSION['cart']);
 <div class="container py-5 text-center">
     <h2 class="text-success mb-4">✅ สั่งซื้อเรียบร้อยแล้ว</h2>
     <p class="text-muted">ขอบคุณที่ใช้บริการ</p>
-    <a href="show_allProduct.php" class="btn btn-primary mt-3">กลับไปเลือกสินค้า</a>
+    <a href="showProduct.php" class="btn btn-primary mt-3">กลับไปเลือกสินค้า</a>
 </div>
 
 </body>
